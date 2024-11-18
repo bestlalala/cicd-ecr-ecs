@@ -35,7 +35,7 @@ jobs:
       - name: AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::323594814947:role/full_access
+          role-to-assume: arn:aws:iam::323594814947:role/awscicdrole
           role-session-name: sampleSessionName
           aws-region: ap-northeast-2
 
